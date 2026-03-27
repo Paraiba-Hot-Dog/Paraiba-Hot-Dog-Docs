@@ -1,0 +1,1279 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentacao do projeto Paraiba Hot Dog">
+      
+      
+      
+      
+        <link rel="prev" href="../../Reunioes/Reuniao-02/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Historias de Usuario - Paraiba Hot Dog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#historias-de-usuario-us" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Paraiba Hot Dog" class="md-header__button md-logo" aria-label="Paraiba Hot Dog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Paraiba Hot Dog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Historias de Usuario
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Paraiba Hot Dog" class="md-nav__button md-logo" aria-label="Paraiba Hot Dog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Paraiba Hot Dog
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunioes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reunioes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reunioes/Reuniao-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reuniao 01
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reunioes/Reuniao-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reuniao 02
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ponto de Controle 01
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ponto de Controle 01
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Historias de Usuario
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Historias de Usuario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visão Geral
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-1-experiencia-do-cliente-landing-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 1: Experiência do Cliente (Landing Page)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 1: Experiência do Cliente (Landing Page)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01-interface-de-navegacao-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US01 – Interface de Navegação Visual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02-nossa-historia-e-blog-de-novidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US02 – Nossa História e Blog de Novidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us03-localizador-de-lojas-e-horarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US03 – Localizador de Lojas e Horários
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-visualizacao-de-cardapio-interativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US04 – Visualização de Cardápio Interativo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-2-operacao-de-vendas-sistema-de-pedido-pdv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 2: Operação de Vendas (Sistema de Pedido / PDV)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 2: Operação de Vendas (Sistema de Pedido / PDV)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us05-registro-de-pedidos-interface-pdv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US05 – Registro de Pedidos (Interface PDV)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06-fluxo-e-status-de-preparo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US06 – Fluxo e Status de Preparo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-gestao-de-cancelamentos-e-erros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US07 – Gestão de Cancelamentos e Erros
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-3-gestao-de-insumos-e-retencao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 3: Gestão de Insumos e Retenção
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 3: Gestão de Insumos e Retenção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us08-controle-de-estoque-automatico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US08 – Controle de Estoque Automático
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us09-sistema-de-fidelidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US09 – Sistema de Fidelidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-4-business-intelligence-dashboard-bi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 4: Business Intelligence (Dashboard BI)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 4: Business Intelligence (Dashboard BI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us10-bi-dashboard-financeiro-e-lucratividade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US10 – BI: Dashboard Financeiro e Lucratividade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11-bi-performance-de-produtos-e-categorias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US11 – BI: Performance de Produtos e Categorias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us12-bi-analise-de-fluxo-e-sazonalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US12 – BI: Análise de Fluxo e Sazonalidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-5-administracao-e-seguranca-cms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 5: Administração e Segurança (CMS)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 5: Administração e Segurança (CMS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us13-gestao-de-acessos-e-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US13 – Gestão de Acessos e Segurança
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14-gestao-de-conteudo-cardapio-e-banners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US14 – Gestão de Conteúdo (Cardápio e Banners)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us15-relatorios-e-exportacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US15 – Relatórios e Exportação
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controle-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controle de Versao
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visão Geral
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-1-experiencia-do-cliente-landing-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 1: Experiência do Cliente (Landing Page)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 1: Experiência do Cliente (Landing Page)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01-interface-de-navegacao-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US01 – Interface de Navegação Visual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02-nossa-historia-e-blog-de-novidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US02 – Nossa História e Blog de Novidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us03-localizador-de-lojas-e-horarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US03 – Localizador de Lojas e Horários
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-visualizacao-de-cardapio-interativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US04 – Visualização de Cardápio Interativo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-2-operacao-de-vendas-sistema-de-pedido-pdv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 2: Operação de Vendas (Sistema de Pedido / PDV)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 2: Operação de Vendas (Sistema de Pedido / PDV)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us05-registro-de-pedidos-interface-pdv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US05 – Registro de Pedidos (Interface PDV)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06-fluxo-e-status-de-preparo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US06 – Fluxo e Status de Preparo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-gestao-de-cancelamentos-e-erros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US07 – Gestão de Cancelamentos e Erros
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-3-gestao-de-insumos-e-retencao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 3: Gestão de Insumos e Retenção
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 3: Gestão de Insumos e Retenção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us08-controle-de-estoque-automatico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US08 – Controle de Estoque Automático
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us09-sistema-de-fidelidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US09 – Sistema de Fidelidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-4-business-intelligence-dashboard-bi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 4: Business Intelligence (Dashboard BI)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 4: Business Intelligence (Dashboard BI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us10-bi-dashboard-financeiro-e-lucratividade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US10 – BI: Dashboard Financeiro e Lucratividade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11-bi-performance-de-produtos-e-categorias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US11 – BI: Performance de Produtos e Categorias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us12-bi-analise-de-fluxo-e-sazonalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US12 – BI: Análise de Fluxo e Sazonalidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-5-administracao-e-seguranca-cms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épico 5: Administração e Segurança (CMS)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 5: Administração e Segurança (CMS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us13-gestao-de-acessos-e-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US13 – Gestão de Acessos e Segurança
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14-gestao-de-conteudo-cardapio-e-banners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US14 – Gestão de Conteúdo (Cardápio e Banners)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us15-relatorios-e-exportacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US15 – Relatórios e Exportação
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controle-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controle de Versao
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="historias-de-usuario-us">📋 Histórias de Usuário (US)</h1>
+<h2 id="visao-geral">Visão Geral</h2>
+<p>Este documento contém todas as <strong>15 Histórias de Usuário</strong> com seus respectivos requisitos funcionais, organizadas por 5 épicos principais. Cada US possui até 5 requisitos detalhados para implementação.</p>
+<hr />
+<h2 id="epico-1-experiencia-do-cliente-landing-page">Épico 1: Experiência do Cliente (Landing Page)</h2>
+<h3 id="us01-interface-de-navegacao-visual">US01 – Interface de Navegação Visual</h3>
+<p><strong>Como</strong> cliente, <strong>quero</strong> navegar por uma interface visualmente atraente e rápida no celular, <strong>para</strong> encontrar informações sem atritos.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ01</strong>: O sistema deve possuir um menu de navegação fixo no rodapé</li>
+<li><strong>RQ02</strong>: O sistema deve utilizar imagens em formatos otimizados (WebP) para garantir carregamento rápido</li>
+<li><strong>RQ03</strong>: O sistema deve exibir botões de "Pedir Agora" em locais estratégicos para conversão</li>
+<li><strong>RQ04</strong>: O sistema deve aplicar a identidade visual da marca em todos os elementos (Cores e Favicon)</li>
+</ul>
+<hr />
+<h3 id="us02-nossa-historia-e-blog-de-novidades">US02 – Nossa História e Blog de Novidades</h3>
+<p><strong>Como</strong> cliente, <strong>quero</strong> ler sobre a origem da lanchonete e ver notícias recentes, <strong>para</strong> criar uma conexão emocional com a marca.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ05</strong>: O sistema deve apresentar a seção "Sobre Nós" com texto institucional e fotos</li>
+<li><strong>RQ06</strong>: O sistema deve listar notícias e promoções recentes em formato de feed (Blog)</li>
+<li><strong>RQ07</strong>: O sistema deve permitir a expansão/recolhimento de Perguntas Frequentes (FAQ)</li>
+<li><strong>RQ08</strong>: O sistema deve exibir depoimentos e feedbacks reais de outros clientes</li>
+</ul>
+<hr />
+<h3 id="us03-localizador-de-lojas-e-horarios">US03 – Localizador de Lojas e Horários</h3>
+<p><strong>Como</strong> cliente, <strong>quero</strong> localizar a unidade mais próxima por região, <strong>para</strong> planejar minha visita ou pedido.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ09</strong>: O sistema deve permitir filtrar lojas por bairro, cidade ou região</li>
+<li><strong>RQ10</strong>: O sistema deve exibir o horário de funcionamento detalhado por unidade</li>
+<li><strong>RQ11</strong>: O sistema deve indicar visualmente se a loja está "Aberta" ou "Fechada" em tempo real</li>
+<li><strong>RQ12</strong>: O sistema deve fornecer um botão "Como Chegar" integrado ao Google Maps</li>
+</ul>
+<hr />
+<h3 id="us04-visualizacao-de-cardapio-interativo">US04 – Visualização de Cardápio Interativo</h3>
+<p><strong>Como</strong> cliente, <strong>quero</strong> ver o cardápio detalhado com filtros, <strong>para</strong> escolher o lanche ideal.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ13</strong>: O sistema deve organizar o cardápio por categorias (Prensados, Bebidas, Combos)</li>
+<li><strong>RQ14</strong>: O sistema deve oferecer um campo de busca por nome ou ingrediente do lanche</li>
+<li><strong>RQ15</strong>: O sistema deve exibir selos informativos (Ex: "Mais Vendido", "Veggie", "Picante")</li>
+<li><strong>RQ16</strong>: O sistema deve permitir abrir fotos ampliadas e descrições de alérgenos de cada item</li>
+</ul>
+<hr />
+<h2 id="epico-2-operacao-de-vendas-sistema-de-pedido-pdv">Épico 2: Operação de Vendas (Sistema de Pedido / PDV)</h2>
+<h3 id="us05-registro-de-pedidos-interface-pdv">US05 – Registro de Pedidos (Interface PDV)</h3>
+<p><strong>Como</strong> caixa, <strong>quero</strong> registrar pedidos rapidamente através de uma interface tátil, <strong>para</strong> agilizar o atendimento.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ17</strong>: O sistema deve fornecer uma grade de produtos com fotos para seleção rápida por toque</li>
+<li><strong>RQ18</strong>: O sistema deve permitir a inserção de observações personalizadas por item (Ex: "Sem cebola")</li>
+<li><strong>RQ19</strong>: O sistema deve calcular automaticamente o subtotal, taxas e o valor total do pedido</li>
+<li><strong>RQ20</strong>: O sistema deve permitir selecionar múltiplos métodos de pagamento (Pix, Cartão, Dinheiro)</li>
+</ul>
+<hr />
+<h3 id="us06-fluxo-e-status-de-preparo">US06 – Fluxo e Status de Preparo</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> gerenciar o andamento dos pedidos <strong>para</strong> controlar o tempo de entrega.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ21</strong>: O sistema deve listar pedidos em ordem cronológica de entrada</li>
+<li><strong>RQ22</strong>: O sistema deve permitir alterar o status do pedido (Pendente → Preparando → Pronto)</li>
+<li><strong>RQ23</strong>: O sistema deve exibir um alerta visual para pedidos que excederem o tempo limite de espera (Ex: 20 min)</li>
+<li><strong>RQ24</strong>: O sistema deve permitir agrupar pedidos por número de mesa ou comanda</li>
+</ul>
+<hr />
+<h3 id="us07-gestao-de-cancelamentos-e-erros">US07 – Gestão de Cancelamentos e Erros</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> registrar justificativas para cancelamentos <strong>para</strong> entender falhas na operação.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ25</strong>: O sistema deve exigir login de administrador para autorizar cancelamentos</li>
+<li><strong>RQ26</strong>: O sistema deve obrigar a seleção de um motivo para cada pedido cancelado</li>
+<li><strong>RQ27</strong>: O sistema deve registrar logs técnicos de mensagens de erro ocorridas durante a venda</li>
+<li><strong>RQ28</strong>: O sistema deve gerar um relatório mensal de "Perdas por Cancelamento"</li>
+</ul>
+<hr />
+<h2 id="epico-3-gestao-de-insumos-e-retencao">Épico 3: Gestão de Insumos e Retenção</h2>
+<h3 id="us08-controle-de-estoque-automatico">US08 – Controle de Estoque Automático</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> que o estoque seja baixado a cada venda <strong>para</strong> evitar falta de produtos.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ29</strong>: O sistema deve permitir o cadastro de insumos vinculados aos produtos do cardápio</li>
+<li><strong>RQ30</strong>: O sistema deve realizar a baixa automática do estoque assim que o pedido for finalizado</li>
+<li><strong>RQ31</strong>: O sistema deve notificar o administrador quando um insumo atingir o nível "Crítico"</li>
+<li><strong>RQ32</strong>: O sistema deve bloquear a venda de lanches cujo insumo principal esteja zerado</li>
+</ul>
+<hr />
+<h3 id="us09-sistema-de-fidelidade">US09 – Sistema de Fidelidade</h3>
+<p><strong>Como</strong> cliente, <strong>quero</strong> acumular pontos <strong>para</strong> trocar por benefícios.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ33</strong>: O sistema deve permitir o cadastro rápido de clientes via CPF ou Telefone no checkout</li>
+<li><strong>RQ34</strong>: O sistema deve calcular e acumular pontos automaticamente com base no valor da compra</li>
+<li><strong>RQ35</strong>: O sistema deve exibir o saldo de pontos disponível para resgate na tela do caixa</li>
+<li><strong>RQ36</strong>: O sistema deve permitir a aplicação de prêmios (Ex: Lanche grátis) via pontuação</li>
+</ul>
+<hr />
+<h2 id="epico-4-business-intelligence-dashboard-bi">Épico 4: Business Intelligence (Dashboard BI)</h2>
+<h3 id="us10-bi-dashboard-financeiro-e-lucratividade">US10 – BI: Dashboard Financeiro e Lucratividade</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> ver o lucro real <strong>para</strong> avaliar a saúde financeira do negócio.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ37</strong>: O sistema deve exibir gráficos de faturamento bruto diário, semanal e mensal</li>
+<li><strong>RQ38</strong>: O sistema deve calcular o lucro líquido (Vendas - Custo de Insumos)</li>
+<li><strong>RQ39</strong>: O sistema deve exibir o Ticket Médio por cliente em tempo real</li>
+<li><strong>RQ40</strong>: O sistema deve mostrar a margem de lucro percentual de cada item vendido</li>
+</ul>
+<hr />
+<h3 id="us11-bi-performance-de-produtos-e-categorias">US11 – BI: Performance de Produtos e Categorias</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> saber quais lanches vendem mais <strong>para</strong> otimizar o menu.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ41</strong>: O sistema deve gerar um ranking (Top 10) de produtos mais vendidos</li>
+<li><strong>RQ42</strong>: O sistema deve identificar o "Produto Mais Lucrativo" (maior margem, não só venda)</li>
+<li><strong>RQ43</strong>: O sistema deve exibir um gráfico de pizza com a distribuição de vendas por categoria</li>
+<li><strong>RQ44</strong>: O sistema deve permitir filtrar o desempenho de produtos por unidade/loja específica</li>
+</ul>
+<hr />
+<h3 id="us12-bi-analise-de-fluxo-e-sazonalidade">US12 – BI: Análise de Fluxo e Sazonalidade</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> saber os horários de pico <strong>para</strong> organizar a escala da equipe.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ45</strong>: O sistema deve exibir um gráfico de barras com o volume de vendas por hora</li>
+<li><strong>RQ46</strong>: O sistema deve identificar os "Dias da Semana Mais Movimentados"</li>
+<li><strong>RQ47</strong>: O sistema deve permitir a comparação de desempenho entre diferentes períodos (Filtro de Tempo)</li>
+</ul>
+<hr />
+<h2 id="epico-5-administracao-e-seguranca-cms">Épico 5: Administração e Segurança (CMS)</h2>
+<h3 id="us13-gestao-de-acessos-e-seguranca">US13 – Gestão de Acessos e Segurança</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> controlar o nível de acesso dos colaboradores <strong>para</strong> garantir a integridade dos dados e evitar fraudes.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ48</strong>: O sistema deve exigir autenticação com senha criptografada para acesso administrativo</li>
+<li><strong>RQ49</strong>: O sistema deve separar permissões entre perfis de "Caixa" e "Administrador"</li>
+<li><strong>RQ50</strong>: O sistema deve registrar logs de auditoria (quem alterou preços ou deletou pedidos)</li>
+</ul>
+<hr />
+<h3 id="us14-gestao-de-conteudo-cardapio-e-banners">US14 – Gestão de Conteúdo (Cardápio e Banners)</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> gerenciar o catálogo de produtos e as comunicações visuais <strong>para</strong> manter o cardápio atualizado e promover ofertas sazonais.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ51</strong>: O sistema deve permitir criar/editar produtos, preços e fotos via painel administrativo</li>
+<li><strong>RQ52</strong>: O sistema deve permitir a alteração de banners da página inicial para campanhas</li>
+<li><strong>RQ53</strong>: O sistema deve permitir o reajuste de preços em massa (por porcentagem)</li>
+</ul>
+<hr />
+<h3 id="us15-relatorios-e-exportacao">US15 – Relatórios e Exportação</h3>
+<p><strong>Como</strong> administrador, <strong>quero</strong> extrair dados consolidados <strong>para</strong> facilitar a contabilidade e o acompanhamento financeiro.</p>
+<p><strong>Requisitos Funcionais:</strong></p>
+<ul>
+<li><strong>RQ54</strong>: O sistema deve permitir exportar relatórios financeiros (vendas, custos e lucro) nos formatos PDF e Excel</li>
+<li><strong>RQ55</strong>: O sistema deve enviar um resumo do faturamento diário automaticamente por e-mail ao proprietário após o fechamento do caixa</li>
+<li><strong>RQ56</strong>: O sistema deve permitir a seleção de períodos personalizados (data inicial e final) para a geração dos relatórios</li>
+</ul>
+<hr />
+<hr />
+<h2 id="controle-de-versao">Controle de Versao</h2>
+<table>
+<thead>
+<tr>
+<th>Versao</th>
+<th>Data</th>
+<th>Autor(es)</th>
+<th>Alteracoes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>2026-03-27</td>
+<td>Daniel Ferreira Nunes</td>
+<td>Criacao inicial do documento com 15 historias de usuario e 56 requisitos funcionais</td>
+</tr>
+</tbody>
+</table>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
