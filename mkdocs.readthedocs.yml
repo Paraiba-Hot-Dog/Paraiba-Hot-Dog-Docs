@@ -1,0 +1,9 @@
+site_name: Paraiba Hot Dog
+site_description: Documentacao do projeto Paraiba Hot Dog
+site_url: http://localhost:8000
+
+theme:
+  name: readthedocs
+
+nav:
+  - Inicio: index.md

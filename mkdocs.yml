@@ -1,0 +1,14 @@
+site_name: Paraiba Hot Dog
+site_description: Documentacao do projeto Paraiba Hot Dog
+
+theme:
+  name: material
+  language: pt-BR
+
+nav:
+  - Inicio: index.md
+  - Reunioes:
+    - Reuniao 01: Reunioes/Reuniao-01.md
+    - Reuniao 02: Reunioes/Reuniao-02.md
+  - Ponto de Controle 01:
+      - Historias de Usuario: Ponto de controle 01/Historias-de-usuarios.md
