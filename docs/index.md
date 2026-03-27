@@ -16,9 +16,8 @@ O projeto visa criar uma solução integrada para a rede **Paraiba Hot Dog**, um
 
 ## 📚 Conteúdo da Documentação
 
-- **[Reunião 01](Reunioes/Reuniao-01.md)**: Ata da primeira reunião
-- **[Reunião 02](Reunioes/Reuniao-02.md)**: Ata da segunda reunião
-- **[Histórias de Usuário](Ponto%20de%20controle%2001/Historias-de-usuarios.md)**: Épicos, US e requisitos
+- **[Reuniões](Reuniões/)**: Atas das reuniões de planejamento
+- **[Ponto de Controle 01](Ponto%20de%20controle%2001/)**: Histórias de usuário e requisitos
 
 ## 🚀 Quick Start
 

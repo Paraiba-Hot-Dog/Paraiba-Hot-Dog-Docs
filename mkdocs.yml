@@ -1,5 +1,8 @@
 site_name: Paraiba Hot Dog
-site_description: Documentacao do projeto Paraiba Hot Dog
+site_description: Documentação do projeto Paraiba Hot Dog
+site_url: https://mach1r0.github.io/Paraiba-Hot-Dog/
+repo_url: https://github.com/mach1r0/Paraiba-Hot-Dog
+repo_name: Paraiba-Hot-Dog
 
 theme:
   name: material
