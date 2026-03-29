@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este documento contém todas as **15 Histórias de Usuário** com seus respectivos requisitos funcionais, organizadas por 6 épicos principais. Cada US possui até 5 requisitos detalhados para implementação.
+Este documento contém todas as **16 Histórias de Usuário** com seus respectivos requisitos funcionais, organizadas por 7 épicos principais. Cada US possui até 5 requisitos detalhados para implementação.
 
 ---
 
@@ -213,6 +213,22 @@ Requisitos Funcionais:
 
 ---
 
+## Épico 7: Marketing e Comunicação
+
+### US17 – Alertas de Promoção por Push/WhatsApp
+
+Como gerente de marketing, quero notificar clientes sobre promoções e ofertas através de canais diretos para aumentar engajamento e vendas.
+
+Requisitos Funcionais:
+
+- RQ65: O sistema deve permitir criar campanhas de promoção com título, descrição e mídia
+- RQ66: O sistema deve agendar o envio automático para data e horário específicos
+- RQ67: O sistema deve segmentar clientes por tipo (VIP, novo, frequente, inativo)
+- RQ68: O sistema deve enviar notificações via WhatsApp e/ou Push notification
+- RQ69: O sistema deve rastrear taxa de entrega, abertura e cliques nas campanhas
+
+---
+
 ## Controle de Versao
 
 | Versao | Data | Autor(es) | Alteracoes |
@@ -220,6 +236,7 @@ Requisitos Funcionais:
 | 1.0 | 2026-03-27 | Daniel Ferreira Nunes | Criacao inicial do documento com 15 historias de usuario e 56 requisitos funcionais |
 | 2.0 | 2026-03-29 | Daniel Ferreira Nunes | Remocao de US08 (Controle de Estoque), ajuste de Fidelidade por telefone com validade, expansao de Gestao de Cardapio, adicao de Dashboard de Vendas e Insight de Produtos Mais Vendidos, totalizando 16 US com 64 requisitos funcionais |
 | 3.0 | 2026-03-29 | Daniel Ferreira Nunes | Remocao de US06 (Fluxo e Status de Preparo), mantendo apenas cancelamento de pedidos, totalizando 15 US com 60 requisitos funcionais |
+| 4.0 | 2026-03-29 | Daniel Ferreira Nunes | Adicao de US17 - Alertas de Promocao por Push/WhatsApp para engajamento e marketing, totalizando 16 US com 65 requisitos funcionais |
 
 ---
 
