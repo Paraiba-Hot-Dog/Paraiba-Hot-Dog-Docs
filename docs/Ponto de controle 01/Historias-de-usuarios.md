@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este documento contém todas as **16 Histórias de Usuário** com seus respectivos requisitos funcionais, organizadas por 6 épicos principais. Cada US possui até 5 requisitos detalhados para implementação.
+Este documento contém todas as **15 Histórias de Usuário** com seus respectivos requisitos funcionais, organizadas por 6 épicos principais. Cada US possui até 5 requisitos detalhados para implementação.
 
 ---
 
@@ -16,7 +16,6 @@ Requisitos Funcionais:
 
 - RQ01: O sistema deve possuir um menu de navegação fixo no rodapé
 - RQ02: O sistema deve utilizar imagens em formatos otimizados (WebP) para garantir carregamento rápido
-- RQ03: O sistema deve exibir botões de "Pedir Agora" em locais estratégicos para conversão
 - RQ04: O sistema deve aplicar a identidade visual da marca em todos os elementos (Cores e Favicon)
 
 ---
@@ -75,18 +74,6 @@ Requisitos Funcionais:
 
 ---
 
-### US06 – Fluxo e Status de Preparo
-
-Como administrador, quero gerenciar o andamento dos pedidos para controlar o tempo de entrega.
-
-Requisitos Funcionais:
-
-- RQ21: O sistema deve listar pedidos em ordem cronológica de entrada
-- RQ22: O sistema deve permitir alterar o status do pedido (Pendente → Preparando → Pronto)
-- RQ23: O sistema deve exibir um alerta visual para pedidos que excederem o tempo limite de espera (Ex: 20 min)
-- RQ24: O sistema deve permitir agrupar pedidos por número de mesa ou comanda
-
----
 
 ### US07 – Gestão de Cancelamentos e Erros
 
@@ -232,6 +219,7 @@ Requisitos Funcionais:
 |---|---|---|---|
 | 1.0 | 2026-03-27 | Daniel Ferreira Nunes | Criacao inicial do documento com 15 historias de usuario e 56 requisitos funcionais |
 | 2.0 | 2026-03-29 | Daniel Ferreira Nunes | Remocao de US08 (Controle de Estoque), ajuste de Fidelidade por telefone com validade, expansao de Gestao de Cardapio, adicao de Dashboard de Vendas e Insight de Produtos Mais Vendidos, totalizando 16 US com 64 requisitos funcionais |
+| 3.0 | 2026-03-29 | Daniel Ferreira Nunes | Remocao de US06 (Fluxo e Status de Preparo), mantendo apenas cancelamento de pedidos, totalizando 15 US com 60 requisitos funcionais |
 
 ---
 
