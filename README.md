@@ -2,7 +2,7 @@
 
 Sistema de gerenciamento de vendas, pedidos e análise de dados para a rede de lanchonetes Paraiba Hot Dog.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Projeto desenvolvido para a disciplina **Técnicas de Programação em Plataformas Emergentes** sob orientação do Professor **Thiago Luiz de Souza Gomes**.
 
@@ -10,21 +10,45 @@ Projeto desenvolvido para a disciplina **Técnicas de Programação em Plataform
 - **Período**: 2026
 - **Stack**: Python (FastAPI) + React + Docker
 
-## 👥 Integrantes do Grupo
+## Membros do Grupo
 
-| Nome | Matrícula |
-|------|-----------|
-| Daniel Ferreira Nunes | 211061565 |
-| Samuel Ribeiro da Costa¹ | 211031486 |
-| Daniel Ferreira Santos Rabelo | 222006632 |
-| Magno Luiz | 180042696 |
-| Camila Careli | 221007582 |
-| João Victor Marques | 200058576 |
-| Guilherme Coelho Mendonça | 202016364 |
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/camilascareli.png" width="120"><br>
+      <strong>Camila Careli</strong><br>221007582
+    </td>
+    <td align="center">
+      <img src="https://github.com/DanielFsR.png" width="120"><br>
+      <strong>Daniel Ferreira</strong><br>222006632
+    </td>
+    <td align="center">
+      <img src="https://github.com/Mach1r0.png" width="120"><br>
+      <strong>Daniel Nunes</strong><br>211061565
+    </td>
+    <td align="center">
+      <img src="https://github.com/guilermanoo.png" width="120"><br>
+      <strong>Guilherme Coelho</strong><br>202016364
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/jmarquees.png" width="120"><br>
+      <strong>João Victor</strong><br>200058576
+    </td>
+    <td align="center">
+      <img src="https://github.com/magnluiz.png" width="120"><br>
+      <strong>Magno Luiz</strong><br>180042696
+    </td>
+    <td align="center">
+      <img src="https://github.com/SamuelRicosta.png" width="120"><br>
+      <strong>Samuel Ribeiro</strong><br>211031486
+    </td>
+    <td></td>
+  </tr>
+</table>
 
-¹ Líder do projeto
-
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 
@@ -92,7 +116,7 @@ mkdocs serve
 # Acessar em http://127.0.0.1:8000
 ```
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Paraiba-Hot-Dog/
@@ -113,7 +137,7 @@ Paraiba-Hot-Dog/
 └── README.md                # Este arquivo
 ```
 
-## 🛠 Tecnologias
+## Tecnologias
 
 | Camada | Tecnologia |
 |--------|-----------|
@@ -124,7 +148,7 @@ Paraiba-Hot-Dog/
 | Documentação | MkDocs, Material Theme |
 | CI/CD | GitHub Actions |
 
-## 📚 Documentação
+## Documentação
 
 A documentação completa está disponível em:
 - **Local**: `mkdocs serve` e acessar http://127.0.0.1:8000
