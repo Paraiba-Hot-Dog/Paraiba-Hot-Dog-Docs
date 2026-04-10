@@ -7,6 +7,13 @@ repo_name: Paraiba-Hot-Dog
 theme:
   name: material
   language: pt-BR
+  palette:
+    - scheme: default
+      primary: black
+      accent: yellow
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Inicio: index.md
