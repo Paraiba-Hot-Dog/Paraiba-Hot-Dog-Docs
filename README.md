@@ -15,36 +15,33 @@ Projeto desenvolvido para a disciplina **Técnicas de Programação em Plataform
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/camilascareli.png" width="120"><br>
-      <strong>Camila Careli</strong><br>221007582
+      <img src="https://github.com/camilascareli.png" width="100px"><br>
+      <small><strong>Camila Careli</strong><br>221007582</small>
     </td>
     <td align="center">
-      <img src="https://github.com/DanielFsR.png" width="120"><br>
-      <strong>Daniel Ferreira</strong><br>222006632
+      <img src="https://github.com/DanielFsR.png" width="100px"><br>
+      <small><strong>Daniel Ferreira</strong><br>222006632</small>
     </td>
     <td align="center">
-      <img src="https://github.com/Mach1r0.png" width="120"><br>
-      <strong>Daniel Nunes</strong><br>211061565
+      <img src="https://github.com/Mach1r0.png" width="100px"><br>
+      <small><strong>Daniel Nunes</strong><br>211061565</small>
     </td>
     <td align="center">
-      <img src="https://github.com/guilermanoo.png" width="120"><br>
-      <strong>Guilherme Coelho</strong><br>202016364
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/jmarquees.png" width="120"><br>
-      <strong>João Victor</strong><br>200058576
+      <img src="https://github.com/guilermanoo.png" width="100px"><br>
+      <small><strong>Guilherme Coelho</strong><br>202016364</small>
     </td>
     <td align="center">
-      <img src="https://github.com/magnluiz.png" width="120"><br>
-      <strong>Magno Luiz</strong><br>180042696
+      <img src="https://github.com/jmarquees.png" width="100px"><br>
+      <small><strong>João Victor</strong><br>200058576</small>
     </td>
     <td align="center">
-      <img src="https://github.com/SamuelRicosta.png" width="120"><br>
-      <strong>Samuel Ribeiro</strong><br>211031486
+      <img src="https://github.com/magnluiz.png" width="100px"><br>
+      <small><strong>Magno Luiz</strong><br>180042696</small>
     </td>
-    <td></td>
+    <td align="center">
+      <img src="https://github.com/SamuelRicosta.png" width="100px"><br>
+      <small><strong>Samuel Ribeiro</strong><br>211031486</small>
+    </td>
   </tr>
 </table>
 
@@ -149,12 +146,26 @@ Paraiba-Hot-Dog/
 | CI/CD | GitHub Actions |
 
 ## Documentação
+A documentação completa está disponível nas seguintes formas:
+- **Local:** executar `mkdocs serve` e acessar http://127.0.0.1:8000  
+- **Online:** acesse em https://tppe-gp-09.github.io/Paraiba-Hot-Dog/
 
-A documentação completa está disponível em:
-- **Local**: `mkdocs serve` e acessar http://127.0.0.1:8000
-- **Online**: GitHub Pages (após deploy)
+### Como executar
 
-Seções disponíveis:
-- [Atas de Reuniões](docs/Reuniões/)
-- [Histórias de Usuário](docs/Ponto%20de%20controle%2001/)
+```bash
+# Alterar para a branch de documentação
+git checkout docs
 
+# Instalar dependências
+pip install -r requirements-docs.txt
+
+# Servir documentação
+mkdocs serve
+
+# Salvar as alterações no Git (Branch docs)
+git add .
+git commit -m "docs: descrição do que foi alterado"
+git push origin docs
+
+# Realizar o Deploy para o GitHub Pages
+mkdocs gh-deploy
