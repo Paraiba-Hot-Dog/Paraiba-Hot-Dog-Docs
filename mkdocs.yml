@@ -6,6 +6,7 @@ repo_name: Paraiba-Hot-Dog
 
 theme:
   name: material
+  logo: img/logo-black.jpeg
   language: pt-BR
   palette:
     - scheme: default
@@ -17,8 +18,6 @@ extra_css:
 
 nav:
   - Inicio: index.md
-  - Reunioes:
-    - Reuniao 01: Reunioes/Reuniao-01.md
-    - Reuniao 02: Reunioes/Reuniao-02.md
   - Ponto de Controle 01:
+      - Reunioes: Ponto de controle 01/Reunioes.md
       - Product Backlog: Ponto de controle 01/Product-Backlog.md

@@ -4,6 +4,5 @@ site_url: http://localhost:8000
 
 theme:
   name: readthedocs
-
 nav:
   - Inicio: index.md
