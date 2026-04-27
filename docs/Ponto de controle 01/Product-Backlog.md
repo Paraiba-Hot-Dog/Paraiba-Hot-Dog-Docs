@@ -1,6 +1,6 @@
 # Histórias de Usuário (US's)
 
-> Este documento contém as **17 Histórias de Usuário** com seus respectivos requisitos funcionais, organizadas por 7 épicos principais.
+> Este documento contém as **15 Histórias de Usuário** com seus respectivos requisitos funcionais, organizadas por 6 épicos principais.
 
 ---
 
@@ -11,10 +11,10 @@ Como cliente, quero navegar por uma interface visualmente atraente e rápida, pa
 
 | ID | Descrição do Requisito Funcional |
 | :--- | :--- |
-| **RQ01** | O sistema deve possuir um menu de navegação fixo no rodapé. |
+| **RQ01** | O sistema deve possuir um menu hambúrguer no cabeçalho e links de navegação estruturados no rodapé. |
 | **RQ02** | O sistema deve utilizar imagens em formatos otimizados (WebP) para garantir carregamento rápido. |
 | **RQ03** | O sistema deve aplicar a identidade visual da marca em todos os elementos (Cores e Favicon). |
-| **RQ04** | O sistema deve exibir um botão flutuante de "Peça Agora" visível em todas as seções. |
+| **RQ04** | O sistema deve exibir ícones flutuantes de contato e acesso rápido a redes sociais (WhatsApp/Instagram/iFood). |
 
 ### US02 – Nossa História e Blog de Novidades
 Como cliente, quero ler sobre a origem da lanchonete e ver notícias recentes, para criar uma conexão emocional com a marca.
@@ -31,7 +31,6 @@ Como cliente, quero localizar a unidade mais próxima por região, para planejar
 
 | ID | Descrição do Requisito Funcional |
 | :--- | :--- |
-| **RQ09** | O sistema deve permitir filtrar lojas por bairro, cidade ou região. |
 | **RQ10** | O sistema deve exibir o horário de funcionamento detalhado por unidade. |
 | **RQ11** | O sistema deve indicar visualmente se a loja está "Aberta" ou "Fechada" em tempo real. |
 | **RQ12** | O sistema deve permitir que o administrador sobreponha o horário padrão para datas festivas. |
@@ -42,19 +41,19 @@ Como cliente, quero ver o cardápio detalhado com filtros, para escolher o lanch
 
 | ID | Descrição do Requisito Funcional |
 | :--- | :--- |
-| **RQ14** | O sistema deve organizar o cardápio por categorias (Prensados, Bebidas, Combos). |
-| **RQ15** | O sistema deve exibir selos informativos (Ex: "Mais Vendido", "Veggie", "Picante"). |
-| **RQ16** | O sistema deve permitir abrir fotos ampliadas e descrições de alérgenos de cada item. |
+| **RQ14** | O sistema deve listar os produtos com nome, composição detalhada dos ingredientes e preço em destaque. |
+| **RQ15** | O sistema deve permitir a navegação entre categorias (Ex: Prensados, Bebidas, Combos) através de um menu de abas ou scroll lateral. |
+| **RQ16** | O sistema deve exibir fotos reais dos produtos ao lado da descrição para facilitar a identificação visual. |
+
 
 ### US05 – Localização Inteligente via Mapa
 Como cliente, quero visualizar as unidades em um mapa interativo, para identificar a loja mais próxima da minha localização atual.
 
 | ID | Descrição do Requisito Funcional |
 | :--- | :--- |
-| **RQ17** | O sistema deve solicitar permissão de geolocalização para centralizar o mapa na posição atual do usuário. |
-| **RQ18** | O sistema deve exibir marcadores (Pins) personalizados no mapa para identificar as unidades. |
-| **RQ19** | O sistema deve exibir um balão de informações (Pop-up) ao clicar no Pin, com nome, status e botão de ação. |
-| **RQ20** | O sistema deve calcular e exibir a distância aproximada entre o usuário e a unidade selecionada. |
+| **RQ18** | O sistema deve exibir o horário de funcionamento e o status atual (Ex: Aberto agora) diretamente no card da unidade. |
+| **RQ19** | O sistema deve integrar um mapa interativo que permite o uso de gestos (zoom e arrastar) para explorar as localizações. |
+| **RQ20** | O sistema deve fornecer um link direto ("Open in Maps") que redireciona o usuário para o aplicativo de navegação externo. |
 
 ---
 
@@ -75,7 +74,7 @@ Como administrador, quero registrar justificativas para cancelamentos para enten
 
 | ID | Descrição do Requisito Funcional |
 | :--- | :--- |
-| **RQ25** | O sistema deve exigir login de administrador e/ou caixa para autorizar cancelamentos. |
+| **RQ25** | O sistema deve exigir permissão de administrador e/ou caixa para autorizar cancelamentos. |
 | **RQ26** | O sistema deve obrigar a seleção de um motivo para cada pedido cancelado. |
 | **RQ27** | O sistema deve registrar logs técnicos de mensagens de erro ocorridas durante a venda. |
 | **RQ28** | O sistema deve gerar um relatório mensal de "Perdas por Cancelamento". |
@@ -89,16 +88,12 @@ Como cliente, quero acumular pontos pelo meu número de telefone para trocar por
 
 | ID | Descrição do Requisito Funcional |
 | :--- | :--- |
-| **RQ29** | O sistema deve permitir o cadastro/identificação de clientes via número de telefone no checkout. |
-| **RQ30** | O sistema deve calcular e acumular pontos automaticamente com base no valor da compra. |
-| **RQ31** | O sistema deve exibir o saldo de pontos disponível para resgate na tela do caixa. |
-| **RQ32** | O sistema deve permitir a aplicação de prêmios via pontuação. |
+| **RQ29** | O sistema deve permitir o cadastro/identificação de clientes via número de telefone no checkin/checkout. |
+| **RQ30** | O sistema deve calcular e acumular ponto(s) automaticamente com base no valor da compra. |
+| **RQ31** | O sistema deve exibir o saldo de ponto(s) disponível(eis) para resgate. |
 | **RQ33** | O sistema deve registrar uma data de validade para os pontos acumulados. |
 | **RQ34** | O sistema deve permitir criar campanhas de promoção com título, descrição e mídia. |
-| **RQ35** | O sistema deve agendar o envio automático para data e horário específicos. |
-| **RQ36** | O sistema deve segmentar clientes por tipo (VIP, novo, frequente, inativo). |
 | **RQ37** | O sistema deve enviar notificações via WhatsApp e/ou Push notification. |
-| **RQ38** | O sistema deve rastrear taxa de entrega, abertura e cliques nas campanhas. |
 
 ---
 
@@ -188,17 +183,9 @@ Como cozinheiro, quero visualizar os pedidos em uma tela organizada por tempo de
 | **RQ77** | O sistema deve exibir pedidos em "cards" com itens, observações e tempo decorrido. |
 | **RQ78** | O sistema deve mudar a cor do card (Semaforização) conforme o tempo de preparo. |
 | **RQ79** | O sistema deve permitir dar "baixa" no item ou pedido completo via toque ou atalho. |
+| **RQ79** | O sistema deve exibir o histórico dos pedidos por dia. |
 
-### US15 – Interface Exclusiva da Cozinha
-Como cozinheiro, quero uma interface simplificada sem acesso a informações financeiras.
-
-| ID | Descrição do Requisito Funcional |
-| :--- | :--- |
-| **RQ80** | O sistema deve possuir perfil de acesso "Cozinha" que oculte faturamento, relatórios e dados sensíveis de clientes. |
-| **RQ81** | A interface deve exibir apenas a composição do lanche, observações e número do pedido. |
-| **RQ82** | O sistema deve impedir que o perfil de cozinheiro altere preços ou cancele pedidos. |
-
-### US16 – Painel de Chamada de Pedidos
+### US15 – Painel de Chamada de Pedidos
 Como cliente na loja, quero visualizar o status do meu pedido em um monitor para retirá-lo.
 
 | ID | Descrição do Requisito Funcional |
@@ -206,21 +193,6 @@ Como cliente na loja, quero visualizar o status do meu pedido em um monitor para
 | **RQ83** | O sistema deve exibir uma interface de status otimizada para Smart TVs. |
 | **RQ84** | O sistema deve emitir um alerta sonoro padrão quando um pedido for marcado como "Pronto". |
 | **RQ85** | O sistema deve remover o pedido da lista de "Pronto" após tempo configurável. |
-
----
-
-## Épico 7: Manutenção e Expansão
-
-### US17 – Controle de Turno e Fechamento de Caixa
-Como operador de caixa, quero conferir os valores ao final do dia para garantir a integridade financeira.
-
-| ID | Descrição do Requisito Funcional |
-| :--- | :--- |
-| **RQ86** | O sistema deve permitir a abertura de turno com inserção de fundo de reserva. |
-| **RQ87** | O sistema deve permitir o registro de sangrias e suprimentos com justificativa. |
-| **RQ88** | O sistema deve realizar o "Fechamento Cego" (informar valor antes de ver o saldo do sistema). |
-| **RQ89** | O sistema deve gerar relatório comparando valor esperado vs. informado (Quebra de Caixa). |
-| **RQ90** | O sistema deve bloquear novas vendas após o encerramento do turno até que uma nova abertura ocorra. |
 
 ---
 
@@ -234,3 +206,4 @@ Como operador de caixa, quero conferir os valores ao final do dia para garantir 
 | 4.0 | 29/03/2026 | Samuel Ribeiro | Ajuste de sequência de US e RQ e revisão do documento. |
 | 4.1 | 31/03/2026 | Daniel  Nunes | Correção dos erros apontados pelo professor e adição de novas US. |
 | 5.0 | 10/04/2026 | Camila Careli | Padronização estética, correção da sequência numérica (US/RQ) e refinamento das funcionalidades de Mapa e Caixa. |
+| 5.1 | 26/04/2026 | Camila Careli | Refinamento das Histórias de Usuário. |
