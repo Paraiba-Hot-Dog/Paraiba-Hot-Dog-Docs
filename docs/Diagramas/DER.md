@@ -1,6 +1,6 @@
-# Diagrama entidade relacionamento
+# Diagrama Entidade-Relacionamento
 
-O diagrama entidade-relacionamento (DER) apresenta a estrutura de dados do sistema, incluindo as entidades principais, seus atributos e os relacionamentos entre elas. Ele serve como base para a modelagem do banco de dados e ajuda a identificar como as informações de clientes, pedidos, itens e outros elementos se conectam.
+A imagem a seguir representa o Diagrama Entidade-Relacionamento (DER) que estrutura os dados do sistema, incluindo as entidades principais, seus atributos e os relacionamentos entre elas. Ele serve como base para a modelagem do banco de dados.
 
 ![DER](../img/DER.png)
 
