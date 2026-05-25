@@ -26,3 +26,5 @@ nav:
       - Product Backlog: Ponto de controle 01/Product-Backlog.md
       - Fluxo das telas: Ponto de controle 01/Fluxo.md
       - Figma: Ponto de controle 01/Figma.md
+  - Diagrama: 
+      - Diagrama Entidade Relacionamento: Diagramas/DER.md
