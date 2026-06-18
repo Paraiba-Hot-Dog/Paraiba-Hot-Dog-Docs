@@ -1,8 +1,13 @@
-site_name: Paraiba Hot Dog
-site_description: Documentacao do projeto Paraiba Hot Dog
+site_name: Paraíba Hot Dog
+site_description: Documentação oficial do sistema Paraíba Hot Dog
 site_url: http://localhost:8000
 
 theme:
   name: readthedocs
+
 nav:
-  - Inicio: index.md
+  - Início: index.md
+  - Sobre o Projeto: sobre.md
+  - Módulos: modulos.md
+  - Arquitetura: arquitetura.md
+  - Guia de Início: guia-inicio.md

@@ -1,8 +1,5 @@
-site_name: Paraiba Hot Dog
-site_description: Documentação do projeto Paraiba Hot Dog
-site_url: https://mach1r0.github.io/Paraiba-Hot-Dog/
-repo_url: https://github.com/mach1r0/Paraiba-Hot-Dog
-repo_name: Paraiba-Hot-Dog
+site_name: Paraíba Hot Dog
+site_description: Documentação oficial do sistema Paraíba Hot Dog
 
 theme:
   name: material
@@ -12,19 +9,31 @@ theme:
     - scheme: default
       primary: black
       accent: yellow
+  features:
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
 
 extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
   - md_in_html
+  - tables
+  - admonition
 
 nav:
-  - Inicio: index.md
-  - Ponto de Controle 01:
-      - Reunioes: Ponto de controle 01/Reunioes.md
-      - Product Backlog: Ponto de controle 01/Product-Backlog.md
-      - Fluxo das telas: Ponto de controle 01/Fluxo.md
-      - Figma: Ponto de controle 01/Figma.md
-  - Diagrama: 
-      - Diagramas: Diagramas/DER.md
+  - Início: index.md
+  - Sobre o Projeto: sobre.md
+  - Módulos: modulos.md
+  - Arquitetura: arquitetura.md
+  - Guia de Início: guia-inicio.md
+  - Design e Diagramas:
+      - Protótipos (Figma): design/prototipos.md
+      - Diagramas: design/diagramas.md
+  - Requisitos:
+      - Backlog do Produto: requisitos/backlog.md
+  - Desenvolvimento:
+      - Frontend: desenvolvimento/frontend.md
+      - Backend: desenvolvimento/backend.md
+      - Documentação: desenvolvimento/documentacao.md

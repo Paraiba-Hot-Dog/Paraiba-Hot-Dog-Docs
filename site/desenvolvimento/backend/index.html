@@ -6,15 +6,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Documentação do projeto Paraiba Hot Dog">
+        <meta name="description" content="Documentação oficial do sistema Paraíba Hot Dog">
       
       
       
-        <link rel="canonical" href="https://mach1r0.github.io/Paraiba-Hot-Dog/Diagramas/DER/">
+      
+        <link rel="prev" href="../frontend/">
       
       
-        <link rel="prev" href="../../Ponto%20de%20controle%2001/Figma/">
-      
+        <link rel="next" href="../documentacao/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Diagramas - Paraiba Hot Dog</title>
+        <title>Backend - Paraíba Hot Dog</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#diagrama-entidade-relacionamento" class="md-skip">
+        <a href="#backend" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href="../.." title="Paraiba Hot Dog" class="md-header__button md-logo" aria-label="Paraiba Hot Dog" data-md-component="logo">
+    <a href="../.." title="Paraíba Hot Dog" class="md-header__button md-logo" aria-label="Paraíba Hot Dog" data-md-component="logo">
       
   <img src="../../img/logo-black.jpeg" alt="logo">
 
@@ -105,13 +105,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Paraiba Hot Dog
+            Paraíba Hot Dog
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Diagramas
+              Backend
             
           </span>
         </div>
@@ -176,18 +176,6 @@
       
     
     
-      <div class="md-header__source">
-        <a href="https://github.com/mach1r0/Paraiba-Hot-Dog" title="Ir para repositório" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
-  </div>
-  <div class="md-source__repository">
-    Paraiba-Hot-Dog
-  </div>
-</a>
-      </div>
-    
   </nav>
   
 </header>
@@ -211,27 +199,17 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Paraiba Hot Dog" class="md-nav__button md-logo" aria-label="Paraiba Hot Dog" data-md-component="logo">
+    <a href="../.." title="Paraíba Hot Dog" class="md-nav__button md-logo" aria-label="Paraíba Hot Dog" data-md-component="logo">
       
   <img src="../../img/logo-black.jpeg" alt="logo">
 
     </a>
-    Paraiba Hot Dog
+    Paraíba Hot Dog
   </label>
-  
-    <div class="md-nav__source">
-      <a href="https://github.com/mach1r0/Paraiba-Hot-Dog" title="Ir para repositório" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
-  </div>
-  <div class="md-source__repository">
-    Paraiba-Hot-Dog
-  </div>
-</a>
-    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -247,7 +225,95 @@
   
   
   <span class="md-ellipsis">
-    Inicio
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sobre/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sobre o Projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modulos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arquitetura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Arquitetura
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-inicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Guia de Início
     
   </span>
   
@@ -267,20 +333,27 @@
     
     
     
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
-    Ponto de Controle 01
+    Design e Diagramas
     
   </span>
   
@@ -288,10 +361,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Ponto de Controle 01
+            Design e Diagramas
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -302,12 +375,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ponto%20de%20controle%2001/Reunioes/" class="md-nav__link">
+      <a href="../../design/prototipos/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Reunioes
+    Protótipos (Figma)
     
   </span>
   
@@ -325,12 +398,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ponto%20de%20controle%2001/Product-Backlog/" class="md-nav__link">
+      <a href="../../design/diagramas/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Product Backlog
+    Diagramas
     
   </span>
   
@@ -341,28 +414,57 @@
 
               
             
-              
-                
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
   
   
   
   
-    <li class="md-nav__item">
-      <a href="../../Ponto%20de%20controle%2001/Fluxo/" class="md-nav__link">
+    
+    
+    
+    
+      
         
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
   
   
   <span class="md-ellipsis">
-    Fluxo das telas
+    Requisitos
     
   </span>
   
 
-      </a>
-    </li>
-  
-
-              
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -371,12 +473,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Ponto%20de%20controle%2001/Figma/" class="md-nav__link">
+      <a href="../../requisitos/backlog/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Figma
+    Backlog do Produto
     
   </span>
   
@@ -406,20 +508,25 @@
     
     
     
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
-    Diagrama
+    Desenvolvimento
     
   </span>
   
@@ -427,12 +534,35 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
-            Diagrama
+            Desenvolvimento
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Frontend
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -450,18 +580,133 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Backend
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Diagramas
+    Backend
     
   </span>
   
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tecnologias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-executar-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como executar (Docker)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desenvolvimento-local" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvimento local
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desenvolvimento local">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#variaveis-de-ambiente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variáveis de ambiente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentacao-interativa-da-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentação interativa da API
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de dados
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documentação
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -481,24 +726,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -507,18 +734,89 @@
                   
 
 
-  
-  
 
-
-<h1 id="diagrama-entidade-relacionamento">Diagrama Entidade-Relacionamento</h1>
-<p>A imagem a seguir representa o Diagrama Entidade-Relacionamento (DER) que estrutura os dados do sistema, incluindo as entidades principais, seus atributos e os relacionamentos entre elas. Ele serve como base para a modelagem do banco de dados.</p>
-<p><img alt="DER" src="../../img/DER.png" /></p>
-<p><em>Figura 1: Diagrama entidade-relacionamento que representa as tabelas e seus relacionamentos no projeto Paraíba Hot Dog.</em></p>
-<h1 id="diagrama-do-banco">Diagrama do banco</h1>
-<p>A imagem a seguir representa o diagrama do banco que estrutura os dados do sistema, com as tabelas do schema <code>public</code> no PostgreSQL.</p>
-<p><img alt="Diagrama do banco" src="../../img/paraiba_hotdog_db%20-%20paraiba_hotdog_db%20-%20public.png" /></p>
-<p><em>Figura 2: Diagrama do banco de dados (schema public) do projeto Paraíba Hot Dog.</em></p>
+<h1 id="backend">Backend</h1>
+<p>Documentação de referência da API REST do Paraíba Hot Dog.</p>
+<h2 id="tecnologias">Tecnologias</h2>
+<ul>
+<li>Python 3.12+</li>
+<li>FastAPI</li>
+<li>SQLAlchemy</li>
+<li>Alembic</li>
+<li>PostgreSQL</li>
+<li>Poetry</li>
+<li>Docker</li>
+</ul>
+<h2 id="como-executar-docker">Como executar (Docker)</h2>
+<pre><code class="language-bash">cd Paraiba-Hot-Dog-Back
+cp .env.example .env
+docker-compose up -d
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Serviço</th>
+<th>URL local padrão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API</td>
+<td><code>http://localhost:8000</code></td>
+</tr>
+<tr>
+<td>Swagger</td>
+<td><code>http://localhost:8000/docs</code></td>
+</tr>
+<tr>
+<td>ReDoc</td>
+<td><code>http://localhost:8000/redoc</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="desenvolvimento-local">Desenvolvimento local</h2>
+<pre><code class="language-bash">poetry install
+poetry shell
+cp .env.example .env
+alembic upgrade head
+uvicorn app.main:app --reload --port 8000
+</code></pre>
+<h3 id="variaveis-de-ambiente">Variáveis de ambiente</h3>
+<p>As credenciais e parâmetros de conexão ficam no <code>.env</code>. Utilize o <code>.env.example</code> como referência — <strong>não publique valores reais de banco ou autenticação</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Variável</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>POSTGRES_USER</code></td>
+<td>Usuário do banco</td>
+</tr>
+<tr>
+<td><code>POSTGRES_PASSWORD</code></td>
+<td>Senha do banco</td>
+</tr>
+<tr>
+<td><code>POSTGRES_DB</code></td>
+<td>Nome do banco</td>
+</tr>
+<tr>
+<td><code>POSTGRES_HOST</code></td>
+<td>Host do banco</td>
+</tr>
+<tr>
+<td><code>POSTGRES_PORT</code></td>
+<td>Porta do banco</td>
+</tr>
+</tbody>
+</table>
+<h2 id="documentacao-interativa-da-api">Documentação interativa da API</h2>
+<p>A API expõe documentação automática via OpenAPI nos endpoints <code>/docs</code> (Swagger) e <code>/redoc</code> (ReDoc), disponíveis apenas no ambiente configurado.</p>
+<h2 id="modelo-de-dados">Modelo de dados</h2>
+<p>O schema do banco está documentado em <a href="../../design/diagramas/">Diagramas</a>.</p>
 
 
 
@@ -567,7 +865,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.expand", "toc.integrate"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>

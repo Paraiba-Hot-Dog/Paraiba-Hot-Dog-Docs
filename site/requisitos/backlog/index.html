@@ -1,0 +1,1712 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação oficial do sistema Paraíba Hot Dog">
+      
+      
+      
+      
+        <link rel="prev" href="../../design/diagramas/">
+      
+      
+        <link rel="next" href="../../desenvolvimento/frontend/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Backlog do Produto - Paraíba Hot Dog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="yellow">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#backlog-do-produto" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Paraíba Hot Dog" class="md-header__button md-logo" aria-label="Paraíba Hot Dog" data-md-component="logo">
+      
+  <img src="../../img/logo-black.jpeg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Paraíba Hot Dog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Backlog do Produto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="yellow"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Paraíba Hot Dog" class="md-nav__button md-logo" aria-label="Paraíba Hot Dog" data-md-component="logo">
+      
+  <img src="../../img/logo-black.jpeg" alt="logo">
+
+    </a>
+    Paraíba Hot Dog
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sobre/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sobre o Projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modulos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arquitetura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Arquitetura
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-inicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Guia de Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Design e Diagramas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Design e Diagramas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipos (Figma)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/diagramas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagramas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Requisitos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-por-epico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo por épico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-1-experiencia-do-cliente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico 1: Experiência do Cliente
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 1: Experiência do Cliente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01-interface-de-navegacao-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      US01 – Interface de Navegação Visual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02-nossa-historia-e-blog-de-novidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      US02 – Nossa História e Blog de Novidades
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us03-localizador-de-lojas-e-horarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      US03 – Localizador de Lojas e Horários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-visualizacao-de-cardapio-interativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      US04 – Visualização de Cardápio Interativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us05-localizacao-inteligente-via-mapa" class="md-nav__link">
+    <span class="md-ellipsis">
+      US05 – Localização Inteligente via Mapa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-2-operacao-de-vendas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico 2: Operação de Vendas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 2: Operação de Vendas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us06-registro-de-pedidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      US06 – Registro de Pedidos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-gestao-de-cancelamentos-e-erros" class="md-nav__link">
+    <span class="md-ellipsis">
+      US07 – Gestão de Cancelamentos e Erros
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-3-retencao-e-fidelidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico 3: Retenção e Fidelidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 3: Retenção e Fidelidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us08-sistema-de-fidelidade-por-telefone" class="md-nav__link">
+    <span class="md-ellipsis">
+      US08 – Sistema de Fidelidade por Telefone
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-4-business-intelligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico 4: Business Intelligence
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 4: Business Intelligence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us09-dashboard-de-bi-e-relatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      US09 – Dashboard de BI e Relatórios
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-5-administracao-e-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico 5: Administração e Segurança
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 5: Administração e Segurança">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us10-gestao-de-acessos-e-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      US10 – Gestão de Acessos e Segurança
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11-gestao-de-cardapio" class="md-nav__link">
+    <span class="md-ellipsis">
+      US11 – Gestão de Cardápio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us12-relatorios-e-exportacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      US12 – Relatórios e Exportação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us13-gestao-administrativa-de-unidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      US13 – Gestão Administrativa de Unidades
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epico-6-operacao-de-cozinha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico 6: Operação de Cozinha
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épico 6: Operação de Cozinha">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us14-gestao-de-fila-de-producao" class="md-nav__link">
+    <span class="md-ellipsis">
+      US14 – Gestão de Fila de Produção
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Desenvolvimento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Desenvolvimento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desenvolvimento/frontend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Frontend
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desenvolvimento/backend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backend
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desenvolvimento/documentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documentação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="backlog-do-produto">Backlog do Produto</h1>
+<blockquote>
+<p>Este documento registra as <strong>14 histórias de usuário</strong> e seus <strong>100 requisitos funcionais</strong> do ecossistema <strong>Paraíba Hot Dog</strong> (frontend + backend).</p>
+<p>Os requisitos são numerados sequencialmente de <strong>RQ01</strong> a <strong>RQ100</strong>, na ordem em que aparecem neste documento.</p>
+</blockquote>
+<h2 id="resumo-por-epico">Resumo por épico</h2>
+<table>
+<thead>
+<tr>
+<th>Épico</th>
+<th>US</th>
+<th>Requisitos</th>
+<th>Concluídos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 — Experiência do Cliente</td>
+<td>US01–US05</td>
+<td>RQ01–RQ24</td>
+<td>24 / 24</td>
+</tr>
+<tr>
+<td>2 — Operação de Vendas</td>
+<td>US06–US07</td>
+<td>RQ25–RQ38</td>
+<td>14 / 14</td>
+</tr>
+<tr>
+<td>3 — Fidelidade</td>
+<td>US08</td>
+<td>RQ39–RQ46</td>
+<td>8 / 8</td>
+</tr>
+<tr>
+<td>4 — Business Intelligence</td>
+<td>US09</td>
+<td>RQ47–RQ66</td>
+<td>20 / 20</td>
+</tr>
+<tr>
+<td>5 — Administração</td>
+<td>US10–US13</td>
+<td>RQ67–RQ94</td>
+<td>28 / 28</td>
+</tr>
+<tr>
+<td>6 — Cozinha</td>
+<td>US14</td>
+<td>RQ95–RQ100</td>
+<td>6 / 6</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>14 US</strong></td>
+<td><strong>RQ01–RQ100</strong></td>
+<td><strong>100 / 100</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="epico-1-experiencia-do-cliente">Épico 1: Experiência do Cliente</h2>
+<h3 id="us01-interface-de-navegacao-visual">US01 – Interface de Navegação Visual</h3>
+<p>Como cliente, quero navegar por uma interface visualmente atraente e rápida, para encontrar informações sem atritos.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ01</strong></td>
+<td style="text-align: left;">Menu hambúrguer no cabeçalho e links estruturados no rodapé</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ02</strong></td>
+<td style="text-align: left;">Suporte a imagens otimizadas (WebP, JPEG e PNG) no cardápio e uploads</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ03</strong></td>
+<td style="text-align: left;">Identidade visual da marca (cores e favicon)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ04</strong></td>
+<td style="text-align: left;">Ícones flutuantes de redes sociais (iFood e Instagram) na home e rodapé</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ05</strong></td>
+<td style="text-align: left;">Atalho para pedido no iFood na página inicial</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ06</strong></td>
+<td style="text-align: left;">Listagem de unidades na home com link para a página da loja</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ07</strong></td>
+<td style="text-align: left;">Carrosséis de produtos em destaque na home</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ08</strong></td>
+<td style="text-align: left;">Acesso à área administrativa a partir do menu público</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<h3 id="us02-nossa-historia-e-blog-de-novidades">US02 – Nossa História e Blog de Novidades</h3>
+<p>Como cliente, quero ler sobre a origem da lanchonete e ver notícias recentes, para criar conexão com a marca.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ09</strong></td>
+<td style="text-align: left;">Seção "Sobre Nós" com texto institucional e fotos</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ10</strong></td>
+<td style="text-align: left;">Feed de notícias e promoções integrado à API do blog</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ11</strong></td>
+<td style="text-align: left;">FAQ expansível/recolhível</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ12</strong></td>
+<td style="text-align: left;">Exibição de depoimentos de clientes em carrossel</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ13</strong></td>
+<td style="text-align: left;">Gestão administrativa de publicações do blog (CRUD com imagem)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<h3 id="us03-localizador-de-lojas-e-horarios">US03 – Localizador de Lojas e Horários</h3>
+<p>Como cliente, quero localizar a unidade mais próxima por região, para planejar minha visita ou pedido.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ14</strong></td>
+<td style="text-align: left;">Horário de funcionamento detalhado por unidade</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ15</strong></td>
+<td style="text-align: left;">Indicação visual "Aberta" ou "Fechada" com base no horário da unidade</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ16</strong></td>
+<td style="text-align: left;">Horário de abertura e fechamento configurável por unidade no painel admin</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ17</strong></td>
+<td style="text-align: left;">Botão "Como Chegar" integrado ao Google Maps</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<h3 id="us04-visualizacao-de-cardapio-interativo">US04 – Visualização de Cardápio Interativo</h3>
+<p>Como cliente, quero ver o cardápio detalhado com filtros, para escolher o lanche ideal.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ18</strong></td>
+<td style="text-align: left;">Produtos com nome, composição e preço em destaque</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ19</strong></td>
+<td style="text-align: left;">Navegação entre categorias por abas ou scroll lateral</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ20</strong></td>
+<td style="text-align: left;">Fotos dos produtos no cardápio</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ21</strong></td>
+<td style="text-align: left;">Filtro de cardápio por unidade selecionada</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<h3 id="us05-localizacao-inteligente-via-mapa">US05 – Localização Inteligente via Mapa</h3>
+<p>Como cliente, quero visualizar as unidades em um mapa interativo, para identificar a loja mais próxima.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ22</strong></td>
+<td style="text-align: left;">Horário e status de funcionamento na página da unidade</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ23</strong></td>
+<td style="text-align: left;">Mapa interativo com zoom e arrastar</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ24</strong></td>
+<td style="text-align: left;">Link "Abrir no Maps" para navegação externa</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="epico-2-operacao-de-vendas">Épico 2: Operação de Vendas</h2>
+<h3 id="us06-registro-de-pedidos">US06 – Registro de Pedidos</h3>
+<p>Como caixa, quero registrar pedidos rapidamente através de uma interface tátil, para agilizar o atendimento.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ25</strong></td>
+<td style="text-align: left;">Grade de produtos com fotos para seleção por toque</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ26</strong></td>
+<td style="text-align: left;">Observações personalizadas por item</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ27</strong></td>
+<td style="text-align: left;">Cálculo automático de subtotal, desconto fidelidade e total do pedido</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ28</strong></td>
+<td style="text-align: left;">Múltiplos métodos de pagamento (Pix, Cartão, Dinheiro)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ29</strong></td>
+<td style="text-align: left;">Identificação do pedido por nome de comanda</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ30</strong></td>
+<td style="text-align: left;">Manter pedido aberto e complementar itens antes do pagamento</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ31</strong></td>
+<td style="text-align: left;">Painel de pedidos abertos com atualização automática</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ32</strong></td>
+<td style="text-align: left;">Montagem de combos com escolha de bebida</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ33</strong></td>
+<td style="text-align: left;">Seleção da unidade de origem do pedido</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ34</strong></td>
+<td style="text-align: left;">Cadastro de novo cliente durante a venda</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<h3 id="us07-gestao-de-cancelamentos-e-erros">US07 – Gestão de Cancelamentos e Erros</h3>
+<p>Como administrador, quero registrar justificativas para cancelamentos para entender falhas na operação.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ35</strong></td>
+<td style="text-align: left;">Cancelamentos restritos a usuários autenticados na área administrativa</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ36</strong></td>
+<td style="text-align: left;">Registro de motivo em cancelamentos na cozinha e no PDV</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ37</strong></td>
+<td style="text-align: left;">Feedback de erros e confirmações nas operações de venda</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ38</strong></td>
+<td style="text-align: left;">Consulta de pedidos cancelados com motivo na tela de cozinha</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="epico-3-retencao-e-fidelidade">Épico 3: Retenção e Fidelidade</h2>
+<h3 id="us08-sistema-de-fidelidade-por-telefone">US08 – Sistema de Fidelidade por Telefone</h3>
+<p>Como cliente, quero acumular pontos pelo meu número de telefone para trocar por benefícios.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ39</strong></td>
+<td style="text-align: left;">Cadastro e identificação por telefone no PDV</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ40</strong></td>
+<td style="text-align: left;">Acúmulo automático de pontos pela compra</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ41</strong></td>
+<td style="text-align: left;">Exibição do saldo de pontos</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ42</strong></td>
+<td style="text-align: left;">Exibição do progresso para o próximo prêmio no cartão fidelidade</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ43</strong></td>
+<td style="text-align: left;">Publicação de promoções via módulo de blog</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ44</strong></td>
+<td style="text-align: left;">Comunicação automatizada com cliente via WhatsApp no cadastro</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ45</strong></td>
+<td style="text-align: left;">Resgate de benefício por pontos no fechamento do pedido</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ46</strong></td>
+<td style="text-align: left;">Mensagem de boas-vindas via WhatsApp ao cadastrar cliente</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="epico-4-business-intelligence">Épico 4: Business Intelligence</h2>
+<h3 id="us09-dashboard-de-bi-e-relatorios">US09 – Dashboard de BI e Relatórios</h3>
+<p>Como administrador, quero visualizar métricas de vendas e lucratividade para tomar decisões baseadas em dados.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ47</strong></td>
+<td style="text-align: left;">Indicadores de faturamento bruto com filtro por ano e mês</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ48</strong></td>
+<td style="text-align: left;">Lucro líquido (vendas − custos)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ49</strong></td>
+<td style="text-align: left;">Ticket médio atualizado conforme vendas do período</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ50</strong></td>
+<td style="text-align: left;">Margem de lucro do produto em destaque</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ51</strong></td>
+<td style="text-align: left;">Ranking Top 10 de produtos mais vendidos</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ52</strong></td>
+<td style="text-align: left;">Ranking de produtos mais vendidos no período selecionado</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ53</strong></td>
+<td style="text-align: left;">Identificação do produto mais lucrativo</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ54</strong></td>
+<td style="text-align: left;">Gráfico de distribuição de vendas por categoria (mix de produtos)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ55</strong></td>
+<td style="text-align: left;">Dashboard consolidado de indicadores por período</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ56</strong></td>
+<td style="text-align: left;">Gráfico de barras de vendas por hora</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ57</strong></td>
+<td style="text-align: left;">Identificação de picos de venda por horário no gráfico</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ58</strong></td>
+<td style="text-align: left;">Comparação percentual de desempenho em relação ao mês anterior</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ59</strong></td>
+<td style="text-align: left;">Listagem dos produtos com maior volume no período</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ60</strong></td>
+<td style="text-align: left;">Quantidade vendida e receita por produto no ranking</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ61</strong></td>
+<td style="text-align: left;">Variação dos KPIs em relação ao período anterior</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ62</strong></td>
+<td style="text-align: left;">Ranking de produtos para análise de volume de vendas</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ63</strong></td>
+<td style="text-align: left;">Painel resumo com KPIs de vendas do período filtrado</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ64</strong></td>
+<td style="text-align: left;">Lista dos mais vendidos conforme período visualizado</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ65</strong></td>
+<td style="text-align: left;">Ticket médio exibido conforme período selecionado</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ66</strong></td>
+<td style="text-align: left;">Filtros de período por ano, mês e fechamento mensal</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="epico-5-administracao-e-seguranca">Épico 5: Administração e Segurança</h2>
+<h3 id="us10-gestao-de-acessos-e-seguranca">US10 – Gestão de Acessos e Segurança</h3>
+<p>Como administrador, quero controlar o nível de acesso dos colaboradores para garantir a integridade dos dados.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ67</strong></td>
+<td style="text-align: left;">Autenticação com senha para área administrativa (Keycloak)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ68</strong></td>
+<td style="text-align: left;">Cadastro de perfis de acesso (administrador, caixa, cozinha)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ69</strong></td>
+<td style="text-align: left;">Gestão de permissões por função na administração de usuários</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ70</strong></td>
+<td style="text-align: left;">Validação de sessão por token na área administrativa</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ71</strong></td>
+<td style="text-align: left;">Recuperação de senha por e-mail com link temporário</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ72</strong></td>
+<td style="text-align: left;">Redefinição de senha com token de uso único</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ73</strong></td>
+<td style="text-align: left;">Painel administrativo central com atalhos às áreas</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ74</strong></td>
+<td style="text-align: left;">Gestão de colaboradores (criar, editar, excluir)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ75</strong></td>
+<td style="text-align: left;">API de permissões por área do sistema</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<h3 id="us11-gestao-de-cardapio">US11 – Gestão de Cardápio</h3>
+<p>Como administrador, quero gerenciar o catálogo de produtos para manter o cardápio atualizado.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ76</strong></td>
+<td style="text-align: left;">Criar produtos, preços e fotos</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ77</strong></td>
+<td style="text-align: left;">Editar produtos, preços e fotos</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ78</strong></td>
+<td style="text-align: left;">Remover itens com confirmação obrigatória</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ79</strong></td>
+<td style="text-align: left;">Conteúdo visual da home com carrosséis de produtos em destaque</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ80</strong></td>
+<td style="text-align: left;">Edição de preços por variação de produto</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ81</strong></td>
+<td style="text-align: left;">Feedback visual de alterações ao administrador (confirmações e toasts)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ82</strong></td>
+<td style="text-align: left;">Organização do cardápio em categorias e subcategorias</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ83</strong></td>
+<td style="text-align: left;">Variações de produto (tamanhos, combos) com preços distintos</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ84</strong></td>
+<td style="text-align: left;">Cadastro de adicionais opcionais vinculados aos produtos</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ85</strong></td>
+<td style="text-align: left;">Ativar/desativar produto sem excluir do catálogo</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<h3 id="us12-relatorios-e-exportacao">US12 – Relatórios e Exportação</h3>
+<p>Como administrador, quero extrair dados consolidados em formato PDF, para facilitar a conferência contábil.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ86</strong></td>
+<td style="text-align: left;">Exportação do dashboard em PDF pelo painel BI</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ87</strong></td>
+<td style="text-align: left;">Geração de relatório conforme ano e mês selecionados</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ88</strong></td>
+<td style="text-align: left;">Envio de e-mails transacionais (recuperação de senha)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ89</strong></td>
+<td style="text-align: left;">Exportação de KPIs e ranking de produtos no PDF do dashboard</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<h3 id="us13-gestao-administrativa-de-unidades">US13 – Gestão Administrativa de Unidades</h3>
+<p>Como administrador, quero gerenciar as localizações no mapa para manter os pontos de venda atualizados.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ90</strong></td>
+<td style="text-align: left;">Cadastro de unidades com endereço completo e link do Google Maps</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ91</strong></td>
+<td style="text-align: left;">Editar horários de funcionamento por unidade</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ92</strong></td>
+<td style="text-align: left;">Dados de localização disponíveis via API para o front</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ93</strong></td>
+<td style="text-align: left;">Exclusão de unidades pelo painel administrativo</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ94</strong></td>
+<td style="text-align: left;">Imagem representativa da unidade no cadastro</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="epico-6-operacao-de-cozinha">Épico 6: Operação de Cozinha</h2>
+<h3 id="us14-gestao-de-fila-de-producao">US14 – Gestão de Fila de Produção</h3>
+<p>Como cozinheiro, quero visualizar os pedidos em uma tela organizada por status e ordem de chegada.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>RQ95</strong></td>
+<td style="text-align: left;">Cards com itens, observações e horário do pedido</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ96</strong></td>
+<td style="text-align: left;">Semaforização visual por status (fila, preparando, entregue, cancelado)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ97</strong></td>
+<td style="text-align: left;">Baixa de pedido por toque (preparar / entregar)</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ98</strong></td>
+<td style="text-align: left;">Consulta de pedidos entregues e cancelados</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ99</strong></td>
+<td style="text-align: left;">Busca na cozinha por comanda ou item</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>RQ100</strong></td>
+<td style="text-align: left;">Abas separadas para fila, entregues e cancelados</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.expand", "toc.integrate"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
