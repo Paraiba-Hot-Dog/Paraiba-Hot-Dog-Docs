@@ -48,3 +48,11 @@ Paraiba-Hot-Dog/
 ## Equipe
 
 Camila Careli · Daniel Ferreira · Daniel Nunes · Guilherme Coelho · João Victor · Magno Luiz · Samuel Ribeiro
+
+## Demonstração do Produto com o Cliente
+
+Assista ao vídeo que gravamos junto com o cliente para conferir a apresentação e o funcionamento do nosso produto:
+
+[![Demonstração do Produto Paraíba Hot Dog](https://img.youtube.com/vi/Z70tKV3NypQ/maxresdefault.jpg)](https://youtu.be/Z70tKV3NypQ)
+
+*Clique na imagem acima para assistir ao vídeo no YouTube.*
