@@ -44,3 +44,11 @@ O Paraíba Hot Dog centraliza a operação da rede em um único ecossistema digi
 | Documentação | MkDocs, Material Theme |
 | CI/CD | GitHub Actions |
 
+## Demonstração do Produto com o Cliente
+
+Assista ao vídeo que gravamos junto com o cliente para conferir a apresentação e o funcionamento do nosso produto:
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/Z70tKV3NypQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*O vídeo pode ser assistido diretamente pelo player acima.*
+
