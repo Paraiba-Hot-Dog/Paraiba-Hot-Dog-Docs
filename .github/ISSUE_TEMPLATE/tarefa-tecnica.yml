@@ -1,0 +1,31 @@
+name: "🔧 Tarefa Técnica"
+description: CI/CD, infraestrutura, deploy, refactor, dívida técnica — sem entrega direta de valor ao usuário
+title: "[TECH]: "
+labels: ["docs"]  # trocar back → front / docs conforme o repo
+type: "Task"
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto / Motivação
+      description: Por que essa tarefa é necessária?
+      placeholder: "Ex: Configurar pipeline de deploy automático no Render para o branch main"
+    validations:
+      required: true
+
+  - type: textarea
+    id: escopo
+    attributes:
+      label: Escopo / O que precisa ser feito
+      placeholder: |
+        - [ ] Item 1
+        - [ ] Item 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto se não for feito
+    validations:
+      required: false
