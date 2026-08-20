@@ -1,0 +1,37 @@
+name: "📋 História de Usuário"
+description: Nova funcionalidade com valor direto para o usuário final
+title: "[HU]: "
+labels: ["docs"]  # trocar back → front / docs conforme o repo
+type: "Feature"  # precisa existir como Issue Type na organização (ver item 2.5)
+body:
+  - type: textarea
+    id: historia
+    attributes:
+      label: História de Usuário
+      description: "Formato: Como [persona], eu quero [ação], para que [benefício]"
+      placeholder: |
+        Como um cliente,
+        eu quero recuperar minha senha por e-mail,
+        para que eu consiga acessar minha conta mesmo esquecendo a senha.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de Aceite
+      description: Liste os critérios que definem quando essa HU está concluída
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+        - [ ] Critério 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: observacoes
+    attributes:
+      label: Observações / Contexto adicional
+      description: Links, prints, dependências de outras issues/repos
+    validations:
+      required: false
