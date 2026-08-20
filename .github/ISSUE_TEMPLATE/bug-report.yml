@@ -1,0 +1,56 @@
+name: "🐛 Bug Report"
+description: Algo não está funcionando como deveria
+title: "[BUG]: "
+labels: ["docs"]  # trocar back → front / docs conforme o repo
+type: "Bug"
+body:
+  - type: textarea
+    id: atual
+    attributes:
+      label: Comportamento Atual
+      description: O que está acontecendo?
+    validations:
+      required: true
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Comportamento Esperado
+      description: O que deveria acontecer?
+    validations:
+      required: true
+
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para Reproduzir
+      placeholder: |
+        1. Acesse '...'
+        2. Clique em '...'
+        3. Veja o erro
+    validations:
+      required: true
+
+  - type: input
+    id: ambiente
+    attributes:
+      label: Ambiente
+      placeholder: "Produção / Homologação, navegador, versão, etc."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severidade
+    attributes:
+      label: Severidade
+      options: ["Crítica (sistema fora do ar)", "Alta", "Média", "Baixa"]
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Prints, logs, vídeos
+    validations:
+      required: false
