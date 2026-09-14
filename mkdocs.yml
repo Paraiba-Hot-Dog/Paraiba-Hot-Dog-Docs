@@ -33,6 +33,8 @@ nav:
       - Diagramas: design/diagramas.md
   - Requisitos:
       - Backlog do Produto: requisitos/backlog.md
+  - GCES:
+      - Sprints: sprints/index.md
   - Desenvolvimento:
       - Frontend: desenvolvimento/frontend.md
       - Backend: desenvolvimento/backend.md

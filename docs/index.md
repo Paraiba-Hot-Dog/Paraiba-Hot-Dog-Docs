@@ -31,6 +31,7 @@ O Paraíba Hot Dog centraliza a operação da rede em um único ecossistema digi
 - **[Guia de Início](guia-inicio.md)** — como rodar o ambiente localmente
 - **[Design e Diagramas](design/prototipos.md)** — protótipos Figma e diagramas do sistema
 - **[Backlog do Produto](requisitos/backlog.md)** — histórias de usuário e requisitos
+- **[Sprints](sprints/index.md)** — entregas de cada sprint
 
 ## Stack tecnológica
 
