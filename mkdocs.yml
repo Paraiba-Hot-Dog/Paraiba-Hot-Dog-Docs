@@ -34,7 +34,7 @@ nav:
   - Requisitos:
       - Backlog do Produto: requisitos/backlog.md
   - GCES:
-      - Sprints: sprints/index.md
+      - Sprints do Semestre: sprints/index.md
   - Desenvolvimento:
       - Frontend: desenvolvimento/frontend.md
       - Backend: desenvolvimento/backend.md
