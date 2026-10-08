@@ -103,3 +103,75 @@ O planejamento desta sprint está no [milestone Sprint 01](https://github.com/Pa
 ![Resumo da Sprint 01](../img/milestone-sprint-01.png)
 
 ---
+
+## Sprint 2 - 16/09/2026 a 07/10/2026
+
+O planejamento desta sprint está no [milestone Sprint 02](https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/milestone/2?closed=1).
+
+### Entregas da Sprint
+
+<table>
+  <thead>
+    <tr>
+      <th>Desenvolvedores</th>
+      <th align="right">Qtd. de HU/TT</th>
+      <th>HU/TT</th>
+      <th>Assunto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/rafgpereira">Rafael Pereira</a> / <a href="https://github.com/DanielFsR">Daniel Ferreira</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/20">HU-20</a></td>
+      <td>Melhorias no fluxo de pedido e fidelidade</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><a href="https://github.com/camilascareli">Camila Careli</a> / <a href="https://github.com/SamuelRicosta">Samuel Ribeiro</a></td>
+      <td rowspan="2" align="right">2</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/19">HU-19</a></td>
+      <td>Recuperação de senha</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/23">HU-23</a></td>
+      <td>Exploração de dados e exportação de relatórios no dashboard</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><a href="https://github.com/devMarcosVM">Marcos</a> / <a href="https://github.com/M4RINH0">Douglas Marinho</a></td>
+      <td rowspan="3" align="right">3</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/21">BUG-21</a></td>
+      <td>Melhorias de feedback visual, busca e campos obrigatórios</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/22">BUG-22</a></td>
+      <td>Correção do fluxo e navegação na fila de pedidos</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/25">BUG-25</a></td>
+      <td>Padronização visual de elementos sobrepostos e barras fixas</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/GustavoHaubert">Gustavo Haubert</a> / <a href="https://github.com/CA1RO">Cairo Florenço</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/8">HU-8</a></td>
+      <td>Gestão do cliente e ajuste de pontos (fidelidade)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/PedroALuciano">Pedro Luciano</a> / <a href="https://github.com/caio-venancio">Caio Venâncio</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/18">BUG-18</a></td>
+      <td>Ajuste de responsividade do cardápio (visão do cliente)</td>
+    </tr>
+  </tbody>
+</table>
+
+### Resumo
+
+- _Líder da Apresentação_: [Rafael Pereira](https://github.com/rafgpereira)
+- _Total de HU/TT concluídas:_ **8**
+- _Início da Sprint:_ 16/09/2026
+- _Fim da Sprint:_ 07/10/2026
+
+![Resumo da Sprint 02](../img/milestone-sprint-02.png)
+
+---
