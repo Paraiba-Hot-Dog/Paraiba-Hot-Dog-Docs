@@ -172,6 +172,5 @@ O planejamento desta sprint está no [milestone Sprint 02](https://github.com/Pa
 - _Início da Sprint:_ 16/09/2026
 - _Fim da Sprint:_ 07/10/2026
 
-![Resumo da Sprint 02](../img/milestone-sprint-02.png)
 
 ---
