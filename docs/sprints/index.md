@@ -156,7 +156,7 @@ O planejamento desta sprint está no [milestone Sprint 02](https://github.com/Pa
       <td rowspan="2"><a href="https://github.com/PedroALuciano">Pedro Luciano</a> / <a href="https://github.com/caio-venancio">Caio Venâncio</a></td>
       <td rowspan="2" align="right">2</td>
       <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/18">BUG-18</a></td>
-      <td>Ajuste de responsividade do cardápio (visão do cliente) e Criação do ajute de imagem e padronização da inclusão das mesmas.</td>
+      <td>Ajuste de responsividade do cardápio (visão do cliente) e Criação do ajuste de imagem e padronização da inclusão das mesmas.</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/28">HU-28</a></td>
