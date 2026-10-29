@@ -175,3 +175,65 @@ O planejamento desta sprint está no [milestone Sprint 02](https://github.com/Pa
 ![Resumo da Sprint 02](../img/milestone-sprint-02.png)
 
 ---
+
+## Sprint 3 - 08/10/2026 a 28/10/2026
+
+O planejamento desta sprint está no [milestone Sprint 03](https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/milestone/3).
+
+### Entregas da Sprint
+
+<table>
+  <thead>
+    <tr>
+      <th>Desenvolvedores</th>
+      <th align="right">Qtd. de HU/TT</th>
+      <th>HU/TT</th>
+      <th>Assunto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/PedroALuciano">Pedro Luciano</a> / <a href="https://github.com/caio-venancio">Caio Venâncio</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/30">#30</a></td>
+      <td>Implementar painel de aquisição e conversão</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SamuelRicosta">Samuel Ribeiro</a> / <a href="https://github.com/camilascareli">Camila Careli</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/31">#31</a></td>
+      <td>Melhorar o visual da aba de cardápio</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/caio-venancio">Caio Venâncio</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/33">#33</a></td>
+      <td>robots.txt e sitemap.xml</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/M4RINH0">Douglas Marinho</a> / <a href="https://github.com/devMarcosVM">Marcos</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/34">#34</a></td>
+      <td>Centralizar e sincronizar pedidos do iFood no portal — protótipo em ambiente de testes</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/GustavoHaubert">Gustavo Haubert</a> / <a href="https://github.com/CA1RO">Cairo Florenço</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/35">#35</a></td>
+      <td>Visualizar justificativas de alterações nos pontos de fidelidade</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/rafgpereira">Rafael Pereira</a> / <a href="https://github.com/DanielFsR">Daniel Ferreira</a></td>
+      <td align="right">1</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/37">#37</a></td>
+      <td>Melhorias de navegação: remoção de acesso restrito público e tela de configurações</td>
+    </tr>
+  </tbody>
+</table>
+
+### Resumo
+
+- _Líder da Apresentação_: [LIDER](URL_LIDER)
+- _Total de HU/TT concluídas:_ **6**
+- _Início da Sprint:_ 08/10/2026
+- _Fim da Sprint:_ 28/10/2026
