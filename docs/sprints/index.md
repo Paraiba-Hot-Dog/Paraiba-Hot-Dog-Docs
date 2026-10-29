@@ -223,17 +223,21 @@ O planejamento desta sprint está no [milestone Sprint 03](https://github.com/Pa
       <td>Visualizar justificativas de alterações nos pontos de fidelidade</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/rafgpereira">Rafael Pereira</a> / <a href="https://github.com/DanielFsR">Daniel Ferreira</a></td>
-      <td align="right">1</td>
+      <td rowspan="2"><a href="https://github.com/rafgpereira">Rafael Pereira</a> / <a href="https://github.com/DanielFsR">Daniel Ferreira</a></td>
+      <td rowspan="2" align="right">2</td>
       <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/37">#37</a></td>
       <td>Melhorias de navegação: remoção de acesso restrito público e tela de configurações</td>
+    </tr>
+    <tr>
+      <td>TT</td>
+      <td>Ajuste de cron job para prevenção de inatividade do banco de dados e migração da conexão para IPv4 (Pooler)</td>
     </tr>
   </tbody>
 </table>
 
 ### Resumo
 
-- _Líder da Apresentação_: [LIDER](URL_LIDER)
-- _Total de HU/TT concluídas:_ **6**
+- _Líder da Apresentação_: [Camila Careli](https://github.com/camilascareli)
+- _Total de HU/TT concluídas:_ **7**
 - _Início da Sprint:_ 08/10/2026
 - _Fim da Sprint:_ 28/10/2026
