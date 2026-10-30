@@ -30,9 +30,9 @@ Visão geral das funcionalidades organizadas por área de negócio.
 
 | Módulo | Rotas principais | Descrição |
 |--------|------------------|-----------|
-| Dashboard | `/dashboard`, `/admin/dashboard` | Faturamento, ticket médio, rankings e comparativos |
+| Dashboard | `/dashboard`, `/admin/dashboard` | Faturamento, ticket médio, rankings, comparativos e exploração avançada por período/unidade/fidelidade |
 
-Indicadores disponíveis incluem faturamento por período, margem de lucro, top produtos, vendas por hora, dias mais movimentados e alertas de itens parados.
+Indicadores disponíveis incluem faturamento por período, margem de lucro, top produtos, vendas por hora, dias mais movimentados e alertas de itens parados, com exportação em PDF no estado visível em tela, mantendo identidade visual e cabeçalho com período/unidade filtrados.
 
 ## Administração
 

@@ -148,7 +148,7 @@ Como administrador, quero visualizar métricas de vendas e lucratividade para to
 | **RQ52** | Ranking de produtos mais vendidos no período selecionado | ✅ |
 | **RQ53** | Identificação do produto mais lucrativo | ✅ |
 | **RQ54** | Gráfico de distribuição de vendas por categoria (mix de produtos) | ✅ |
-| **RQ55** | Dashboard consolidado de indicadores por período | ✅ |
+| **RQ55** | Dashboard consolidado com cruzamento e pesquisa avançada por período, unidade e fidelidade | ✅ |
 | **RQ56** | Gráfico de barras de vendas por hora | ✅ |
 | **RQ57** | Identificação de picos de venda por horário no gráfico | ✅ |
 | **RQ58** | Comparação percentual de desempenho em relação ao mês anterior | ✅ |
@@ -159,7 +159,7 @@ Como administrador, quero visualizar métricas de vendas e lucratividade para to
 | **RQ63** | Painel resumo com KPIs de vendas do período filtrado | ✅ |
 | **RQ64** | Lista dos mais vendidos conforme período visualizado | ✅ |
 | **RQ65** | Ticket médio exibido conforme período selecionado | ✅ |
-| **RQ66** | Filtros de período por ano, mês e fechamento mensal | ✅ |
+| **RQ66** | Filtros avançados por ano, mês, fechamento mensal e unidade para exploração detalhada | ✅ |
 
 ---
 
@@ -204,10 +204,10 @@ Como administrador, quero extrair dados consolidados em formato PDF, para facili
 
 | ID | Requisito | Status |
 | :--- | :--- | :---: |
-| **RQ86** | Exportação do dashboard em PDF pelo painel BI | ✅ |
-| **RQ87** | Geração de relatório conforme ano e mês selecionados | ✅ |
+| **RQ86** | Exportação do dashboard em PDF pelo painel BI com identidade visual do sistema | ✅ |
+| **RQ87** | Geração de relatório com cabeçalho contendo período e unidade selecionados | ✅ |
 | **RQ88** | Envio de e-mails transacionais (recuperação de senha) | ✅ |
-| **RQ89** | Exportação de KPIs e ranking de produtos no PDF do dashboard | ✅ |
+| **RQ89** | Exportação fiel de todos os indicadores, tabelas e gráficos visíveis no dashboard no momento da exportação | ✅ |
 
 ### US13 – Gestão Administrativa de Unidades
 
