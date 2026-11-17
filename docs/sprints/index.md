@@ -241,3 +241,19 @@ O planejamento desta sprint está no [milestone Sprint 03](https://github.com/Pa
 - _Total de HU/TT concluídas:_ **7**
 - _Início da Sprint:_ 08/10/2026
 - _Fim da Sprint:_ 28/10/2026
+
+## Sprint 4 - 02/11/2026 a 18/11/2026
+
+O planejamento desta sprint está no [milestone Sprint 04](https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/milestone/4).
+
+### Entregas da Sprint
+
+Link para o video da [reunião de apresentação](https://www.youtube.com/watch?v=nOc1KK2C3Tk) com o cliente.
+
+
+### Resumo
+
+- _Líder da Apresentação_: []()
+- _Total de HU/TT concluídas:_ 
+- _Início da Sprint:_ 02/11/2026
+- _Fim da Sprint:_ 18/11/2026
