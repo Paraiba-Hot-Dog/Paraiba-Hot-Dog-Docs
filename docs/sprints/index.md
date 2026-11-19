@@ -250,7 +250,7 @@ O planejamento desta sprint está no [milestone Sprint 04](https://github.com/Pa
 
 ### Entregas da Sprint
 
-Link para o video da [reunião de apresentação](https://www.youtube.com/watch?v=nOc1KK2C3Tk) com o cliente.
+Link para o video da [reunião de apresentação](https://drive.google.com/file/d/1V0i8pZysx1OdmePFKSBEFpCDtMwFiViI/view?t=4.38) com o cliente.
 
 <table>
   <thead>
@@ -333,7 +333,7 @@ Link para o video da [reunião de apresentação](https://www.youtube.com/watch?
 
 ### Resumo
 
-- _Líder da Apresentação_: []()
+- _Líder da Apresentação_: [Cairo Florenço](https://github.com/CA1RO)
 - _Total de HU/TT concluídas:_ **14**
 - _Início da Sprint:_ 02/11/2026
 - _Fim da Sprint:_ 18/11/2026
