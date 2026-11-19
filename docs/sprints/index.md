@@ -242,6 +242,8 @@ O planejamento desta sprint está no [milestone Sprint 03](https://github.com/Pa
 - _Início da Sprint:_ 08/10/2026
 - _Fim da Sprint:_ 28/10/2026
 
+---
+
 ## Sprint 4 - 02/11/2026 a 18/11/2026
 
 O planejamento desta sprint está no [milestone Sprint 04](https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/milestone/4).
@@ -250,10 +252,88 @@ O planejamento desta sprint está no [milestone Sprint 04](https://github.com/Pa
 
 Link para o video da [reunião de apresentação](https://www.youtube.com/watch?v=nOc1KK2C3Tk) com o cliente.
 
+<table>
+  <thead>
+    <tr>
+      <th>Desenvolvedores</th>
+      <th align="right">Qtd. de HU/TT</th>
+      <th>HU/TT</th>
+      <th>Assunto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3"><a href="https://github.com/PedroALuciano">Pedro Luciano</a> / <a href="https://github.com/caio-venancio">Caio Venâncio</a></td>
+      <td rowspan="3" align="right">3</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/38">#38</a></td>
+      <td>Montar combos e grupos de complementos no cardápio</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/40">#40</a></td>
+      <td>Ordem das categorias do cardápio instável</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/43">#43</a></td>
+      <td>Cadastrar cliente manualmente no painel</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><a href="https://github.com/SamuelRicosta">Samuel Ribeiro</a> / <a href="https://github.com/camilascareli">Camila Careli</a></td>
+      <td rowspan="3" align="right">3</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/41">#41</a></td>
+      <td>Upload de imagens no Supabase Storage</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/42">#42</a></td>
+      <td>Painel lento ao carregar permissões, sem feedback de loading</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/44">#44</a></td>
+      <td>Mock de autenticação para ambiente local</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><a href="https://github.com/M4RINH0">Douglas Marinho</a> / <a href="https://github.com/devMarcosVM">Marcos</a></td>
+      <td rowspan="3" align="right">3</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/45">#45</a></td>
+      <td>Marcar pedido "para viagem"</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/50">#50</a></td>
+      <td>Editar a observação de um item já anotado</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/51">#51</a></td>
+      <td>Finalizar pedido é lento e falha no PostgreSQL</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><a href="https://github.com/GustavoHaubert">Gustavo Haubert</a> / <a href="https://github.com/CA1RO">Cairo Florenço</a></td>
+      <td rowspan="3" align="right">3</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/47">#47</a></td>
+      <td>Pedido pago podia ser reaberto e alterado</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/48">#48</a></td>
+      <td>Resgate de fidelidade com pontos errados e desconto não exibido</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/49">#49</a></td>
+      <td>BI e relatórios usam horário UTC em vez de Brasília</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><a href="https://github.com/rafgpereira">Rafael Pereira</a> / <a href="https://github.com/DanielFsR">Daniel Ferreira</a></td>
+      <td rowspan="2" align="right">2</td>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/39">#39</a></td>
+      <td>Unidades com dados fixos e desatualizados</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs/issues/46">#46</a></td>
+      <td>Total do pedido incorreto (itens duplicados e acréscimo de combo)</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Resumo
 
 - _Líder da Apresentação_: []()
-- _Total de HU/TT concluídas:_ 
+- _Total de HU/TT concluídas:_ **14**
 - _Início da Sprint:_ 02/11/2026
 - _Fim da Sprint:_ 18/11/2026
